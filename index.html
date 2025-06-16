@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Profil Pribadi - kaka</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://files.catbox.moe/e64m51.jpg');
+    background-size: cover;
+    margin: 0; padding: 0;
+    color: #333;
+  }
+  .produk-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .produk-item {
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+    animation: goyang 2s infinite alternate;
+  }
+  @keyframes goyang {
+    0% { transform: rotate(-3deg); }
+    100% { transform: rotate(3deg); }
+  }
+  .produk-item img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .btn-beli {
+    display: inline-block;
+    margin-top: 8px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .page { display: none; padding: 20px; }
+  .page.active { display: block; }
+  nav {
+    text-align: center;
+    margin: 15px 0;
+  }
+  nav button {
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+  }
+  nav button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <section class="page active" id="page1">
+      <header style="text-align:center;">
+        <img src="https://files.catbox.moe/e64m51.jpg" alt="Foto Profil" style="width:120px; height:120px; border-radius:50%; object-fit:cover;" />
+        <h1>kaka</h1>
+        <div class="nomor">📞 wa.me/6283139882434</div>
+      </header>
+    </section>
+    <section class="page" id="page2">
+      <h2 style="text-align:center;">Katalog Produk</h2>
+      <div class="produk-list">
+        
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+          <div class="produk-item">
+            <img src="https://files.catbox.moe/e64m51.jpg" alt="panel1" />
+            <h3>panel1</h3>
+            <p>tes1</p>
+            <a href="https://wa.me/6283139882434?text=Saya%20tertarik%20dengan%20produk%20panel1" target="_blank" class="btn-beli">Beli Sekarang</a>
+          </div>
+      </div>
+    </section>
+    <section class="page" id="page3">
+      <h2 style="text-align:center;">Media Sosial</h2>
+      <div style="text-align:center; margin-bottom:30px;">
+        <a href="https://wa.me/6283139882434" target="_blank" style="margin: 0 10px; font-size: 30px;">📱</a>
+        <a href="https://www.tiktok.com/@https://tiktok.com/embud" target="_blank" style="margin: 0 10px; font-size: 30px;">🎵</a>
+        <a href="https://www.instagram.com/https://instagram.contol" target="_blank" style="margin: 0 10px; font-size: 30px;">📸</a>
+      </div>
+      <audio controls autoplay muted loop style="width:100%;">
+        <source src="https://files.catbox.moe/bkoc2r.mp3" type="audio/mpeg" />
+        Browser Anda tidak mendukung audio.
+      </audio>
+    </section>
+    <nav>
+      <button id="prevBtn" disabled>⬅ Sebelumnya</button>
+      <button id="nextBtn">Selanjutnya ➡</button>
+    </nav>
+  </div>
+<script>
+  let currentPage = 1;
+  const totalPages = 3;
+  const pages = [...document.querySelectorAll('.page')];
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  function showPage(num) {
+    pages.forEach((p, i) => p.classList.toggle('active', i === num -1));
+    prevBtn.disabled = (num === 1);
+    nextBtn.disabled = (num === totalPages);
+  }
+
+  prevBtn.addEventListener('click', () => {
+    if(currentPage > 1) currentPage--;
+    showPage(currentPage);
+  });
+  nextBtn.addEventListener('click', () => {
+    if(currentPage < totalPages) currentPage++;
+    showPage(currentPage);
+  });
+
+  showPage(currentPage);
+</script>
+</body>
+</html>
